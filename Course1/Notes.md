@@ -29,4 +29,11 @@ It makes the process of making modular components for specific use cases easier.
 Store past conversations in memory so that it has a more conversational flow.
 
 - The way it stores memory is with ConversationBufferMemory.
-- The LLM itself is stateless (it does not remember anything from the past). Wrapper code gives the full conversation so far as context to the LLM so it could generate a response. As a conversation gets longer the context gets longer and becomes expensive to provide. LangChain solves this with ConversationBufferMemory.
+- The LLM itself is stateless (it does not remember anything from the past). Wrapper code gives the full conversation so far as context to the LLM so it could generate a response. As a conversation gets longer the context gets longer and becomes expensive to provide. LangChain solves this with ConversationBufferMemory, which speifies in a parameter how many conversation steps should be remembered.
+
+Memory Types
+
+1. **ConversationBufferMemory**: allows for storing of messages and then extracts the message in a variable.
+2. **ConversationBufferWindowMemory**: keeps list of interactions of the conversation over time and only uses last k interactions.
+3. **ConversationTokenBufferMemory**: keeps buffer of recent interactions in memory and uses token lenght rather than number of interactions to determine when to flush interacitons.
+4. **ConversationSummaryMemory**: creates summary of the conversation over time.
