@@ -37,3 +37,11 @@ Memory Types
 2. **ConversationBufferWindowMemory**: keeps list of interactions of the conversation over time and only uses last k interactions.
 3. **ConversationTokenBufferMemory**: keeps buffer of recent interactions in memory and uses token lenght rather than number of interactions to determine when to flush interacitons.
 4. **ConversationSummaryMemory**: creates summary of the conversation over time.
+
+## Chains
+
+Combines LLM with prompt.
+
+- chain.run formats the prompt and feeds it to the LLM, then returns the result of the chain.
+- The simple sequential chain is where there are multiple chains with a single input and single output each.
+- 
