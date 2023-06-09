@@ -44,4 +44,5 @@ Combines LLM with prompt.
 
 - chain.run formats the prompt and feeds it to the LLM, then returns the result of the chain.
 - The simple sequential chain is where there are multiple chains with a single input and single output each.
-- 
+- For multiple inputs and/or outputs
+- A router chain routes input to the correct chain
