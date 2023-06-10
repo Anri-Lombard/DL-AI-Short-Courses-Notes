@@ -46,3 +46,8 @@ Combines LLM with prompt.
 - The simple sequential chain is where there are multiple chains with a single input and single output each.
 - For multiple inputs and/or outputs
 - A router chain routes input to the correct chain
+
+## Question and Answer
+
+A **Vector store** is a database of vectors that can be queried for similar vectors.
+An **Embedding** is a vector representation of a piece of text which allows us to compare it to other pieces of text.
