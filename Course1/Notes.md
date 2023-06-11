@@ -51,3 +51,5 @@ Combines LLM with prompt.
 
 A **Vector store** is a database of vectors that can be queried for similar vectors.
 An **Embedding** is a vector representation of a piece of text which allows us to compare it to other pieces of text.
+
+LLMs can only inspect a few thousand words at a time.
