@@ -49,7 +49,9 @@ Combines LLM with prompt.
 
 ## Question and Answer
 
-A **Vector store** is a database of vectors that can be queried for similar vectors.
-An **Embedding** is a vector representation of a piece of text which allows us to compare it to other pieces of text.
+LLMs can only inspect a few thousand words at a time. This is why we need to use embeddings and vector stores.
 
-LLMs can only inspect a few thousand words at a time.
+- A **Vector store** is a database of vectors that can be queried for similar vectors.
+- An **Embedding** is a vector representation of a piece of text which allows us to compare it to other pieces of text.
+- A **Vector database** is a database of vectors that can be queried for similar vectors.
+- The **Stuff Method / Stuffing** is a method to simply stuff all data into a prompt as context to pass to the language model.
