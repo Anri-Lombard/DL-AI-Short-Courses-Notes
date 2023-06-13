@@ -1,11 +1,25 @@
-# DeepLearning.ai Short Courses
+# My Learning Journey with DeepLearning.ai Short Courses
 
-This repository is an ongoing documentation of my notes and insights from taking the [DeepLearning.ai Short Courses](https://learn.deeplearning.ai/).
+Welcome to my repository! Here, I document my ongoing learning journey through the [DeepLearning.ai Short Courses](https://learn.deeplearning.ai/).
 
-## How to learn these courses
+## Effective Learning Approach
 
-I've had a lot of practice learning online and offline, given my 14.5 years of formal education along with much online training. This is the process I found useful to retain the most of what was taught:
+With 14.5 years of formal education and numerous online training experiences, I have developed a process to maximize the retention of knowledge. I have found the following steps particularly useful:
 
-1. Watch the videos and take notes.
-2. Play around with the notebooks and try to understand what is happening through experimentation. It is important to separate this step from the previous one because it's easy to trick yourself into thinking you understand something when you're just following along.
-3. (Optional) Build something with it yourself from scratch. This is more difficult and only useful when the other 2 steps were done.
+1. **Engage:** Watch the course videos attentively and jot down important notes.
+2. **Experiment:** Explore the notebooks, understand the underlying logic, and experiment with code. This step is intentionally separate from the first one, as understanding is often mistaken for merely following instructions.
+3. **Create:** (Optional) Attempt to build something from scratch using the learned concepts. This step, although challenging, consolidates understanding and encourages practical application.
+
+## Repository Contents
+
+The repository includes:
+
+- **Notes:** 
+  - [Downloadable PDF](./LangChain%20for%20LLM%20Application%20Development.pdf)
+  - [Modifiable Docx](./LangChain%20for%20LLM%20Application%20Development.docx)
+
+Feel free to check them out!
+
+## Disclaimer
+
+Please note that this repository is not officially affiliated with DeepLearning.ai. It contains my personal insights and interpretations from the courses. While I strive for accuracy, the notes might not be entirely error-free and should not be solely relied upon as learning material. As I keep progressing through the courses, the notes will be updated accordingly.
