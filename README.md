@@ -15,8 +15,8 @@ With 14.5 years of formal education and numerous online training experiences, I 
 The repository includes:
 
 - **Notes:** 
-  - [Downloadable PDF](./LangChain%20for%20LLM%20Application%20Development.pdf)
-  - [Modifiable Docx](./LangChain%20for%20LLM%20Application%20Development.docx)
+  - [Downloadable PDF](./DL%20Short%20Course%20Notes.pdf)
+  - [Modifiable Docx](./DL%20Short%20Course%20Notes.docx)
 
 Feel free to check them out!
 
